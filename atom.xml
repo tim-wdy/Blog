@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[wdy-blog]]></title>
+  <subtitle><![CDATA[wdy-blog]]></subtitle>
+  <link href="/Blog/atom.xml" rel="self"/>
+  <link href="http://tim-wdy.github.io/Blog/"/>
+  <updated>2015-11-10T04:53:28.000Z</updated>
+  <id>http://tim-wdy.github.io/Blog/</id>
+  
+  <author>
+    <name><![CDATA[Tim-wdy]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[产品升级简述]]></title>
+    <link href="http://tim-wdy.github.io/Blog/2015/11/04/ced/"/>
+    <id>http://tim-wdy.github.io/Blog/2015/11/04/ced/</id>
+    <published>2015-11-04T05:20:49.000Z</published>
+    <updated>2015-11-10T04:53:28.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="基于粉丝，铁杆粉丝的升级方案">基于粉丝，铁杆粉丝的升级方案</h3><p><img src="http://pic.i-yizhan.com/uploads/564052e5d2802.png" alt="miaoshu"></p>
+<pre><code>重构会员中心，更名为粉丝运营中心并抽离为基础模块，为商家呈现专属于自己的粉丝和铁杆粉丝。
+
+粉丝/铁杆粉丝的来源：1. 通过应用引导 2. 为商家发现（推荐） 3. 制定规则自动生成 4.商家手动
+
+
+-<span class="ruby"> 吸粉神器：到店消费的客户，付款时扫描柜台二维码，填写姓名，手机号，勾选若干标签成为店内“粉丝”。同时获得商家预先设置好的优惠券，每个月发几张，发什么优惠券给客户，都由商家在后台统一设定。
+</span>
+-<span class="ruby"> 红包：后台创建红包，开放给某应用，通过某应用最后进入c端用户的个人红包中
+</span>
+
+-<span class="ruby"> 分享成为铁杆粉得红包：分享页面，让朋友拆包；其他c端用户通过分享的页面帮其拆包，也可以领取到一个红包。（红包是否加概率）（领取到用户分享红包的其他用户，与此用户建立关系，当有其他用户消费红包时，此用户就算做分享用户拉来的小伙伴。拉来<span class="number">5</span>个用户就升级成为铁杆粉丝。）
+</span>
+
+-<span class="ruby"> 用户如何来查看自己的个人中心：
+</span>
+        1. 店内扫码获得优惠券，在呈现优惠券的页面点击确定，跳转至个人中心。
+        2. 关注公众号，点击“粉丝中心”菜单。
+
+-<span class="ruby"> 粉丝的个人中心呈现什么内容：
+</span>
+        身份：普通会员，粉丝，铁杆粉丝
+        名字：
+        完善个人信息
+        我的优惠券
+        我的红包
+        历史记录
+        我拉来的小伙伴
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="基于粉丝，铁杆粉丝的升级方案">基于粉丝，铁杆粉丝的升级方案</h3><p><img src="http://pic.i-yizhan.com/uploads/564052e5d2802.png" alt="miaoshu"></p>
+<pre><code>重构会]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[first]]></title>
+    <link href="http://tim-wdy.github.io/Blog/2015/11/04/first/"/>
+    <id>http://tim-wdy.github.io/Blog/2015/11/04/first/</id>
+    <published>2015-11-04T04:55:42.000Z</published>
+    <updated>2015-11-04T04:56:06.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Hello_World">Hello World</h1>]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="Hello_World">Hello World</h1>]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://tim-wdy.github.io/Blog/2015/11/04/hello-world/"/>
+    <id>http://tim-wdy.github.io/Blog/2015/11/04/hello-world/</id>
+    <published>2015-11-04T04:11:53.000Z</published>
+    <updated>2015-11-04T04:11:53.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
