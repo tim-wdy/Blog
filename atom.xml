@@ -4,7 +4,7 @@
   <subtitle><![CDATA[wdy-blog]]></subtitle>
   <link href="/Blog/atom.xml" rel="self"/>
   <link href="http://tim-wdy.github.io/Blog/"/>
-  <updated>2015-11-10T05:35:57.000Z</updated>
+  <updated>2015-11-12T07:02:01.000Z</updated>
   <id>http://tim-wdy.github.io/Blog/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tim-wdy.github.io/Blog/2015/11/04/ced/"/>
     <id>http://tim-wdy.github.io/Blog/2015/11/04/ced/</id>
     <published>2015-11-04T05:20:49.000Z</published>
-    <updated>2015-11-10T05:35:57.000Z</updated>
+    <updated>2015-11-12T07:02:01.000Z</updated>
     <content type="html"><![CDATA[<h3 id="基于粉丝，铁杆粉丝的升级方案">基于粉丝，铁杆粉丝的升级方案</h3><p><img src="http://pic.i-yizhan.com/uploads/564052e5d2802.png" alt="miaoshu"></p>
 <p>重构会员中心，更名为粉丝运营中心并抽离为基础模块，为商家呈现专属于自己的粉丝和铁杆粉丝。</p>
 <p>粉丝/铁杆粉丝的来源：1. 通过应用引导 2. 为商家发现（推荐） 3. 制定规则自动生成 4.商家手动</p>
@@ -30,7 +30,7 @@
 </li>
 </ul>
 <ul>
-<li>分享成为铁杆粉得红包：分享页面，让朋友拆包；其他c端用户通过分享的页面帮其拆包，也可以领取到一个红包。（红包是否加概率）（领取到用户分享红包的其他用户，与此用户建立关系，当有其他用户消费红包时，此用户就算做分享用户拉来的小伙伴。拉来5个用户就升级成为铁杆粉丝。）</li>
+<li>分享得红包：分享页面，让朋友拆包；其他c端用户通过分享的页面帮其拆包，也可以领取到一个红包。（1.每个人只能帮拆一次 2. 每天最多获得5个）领取到用户分享红包的其他用户，与此用户建立关系，当有其他用户消费红包时，此用户就算做分享用户拉来的小伙伴，可重复，每拉来5个人可成为铁杆粉丝，并获得一个铁杆粉丝专属红包。（待商榷）</li>
 </ul>
 <ul>
 <li><p>用户如何来查看自己的个人中心：</p>
@@ -44,6 +44,7 @@
 我的优惠券
 我的红包
 历史记录
+发了多少红包
 我拉来的小伙伴
 </code></pre></li>
 </ul>
